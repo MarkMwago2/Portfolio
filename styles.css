@@ -1,0 +1,103 @@
+#coverpage{
+    height:100%;
+    background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=1000);
+    background-attachment: fixed;
+    padding-top: -20px;
+
+}
+body{
+    overflow-x: hidden;
+}
+#headline{
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 60px
+
+}
+#intro{
+    color: white;
+    text-align: center;
+    font-family: 'Playfair Display SC' serif;
+    font-size: 40px;
+}
+.covernav{
+    float: right;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height:45px;
+    margin-top:-22px;
+    margin-left: -10px;
+}
+.colornav:hover{
+    color: yellow;
+}
+.colornav{
+    color: white;
+    padding: 10px;
+}
+.bodynav{
+    color:black;
+    padding: 10px;
+}
+.bodynav:hover{
+    color: grey;
+}
+#bodynav{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    float: right;
+    text-decoration-line: overline;
+}
+#about{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Oleo Script', cursive;
+    #contact{
+        text-align: center;
+        font-family: 'Oleo Script', cursive;
+        background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=1000);
+        background-attachment: fixed;
+        padding-top: 50px;
+    }
+    .titles{
+        font-size: 70px;
+    }
+    p{
+        font-size: 20px;
+    }
+    /* #projects{
+      text-align: center;
+      margin-top: 40px;
+      font-family: 'Oleo Script', cursive;
+      #contact{
+          text-align: center;
+          font-family: 'Oleo Script', cursive;
+          background-image: url(https://images.pexels.com/photos/952670/pexels-photo-952670.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=1000);
+          background-attachment: fixed;
+          padding-top: 50px; */
+    }
+    #linkedin{
+        color: #fff;
+        margin-right: 110px;
+    }
+    #github{
+        color: #fff;
+        margin-right: 160px;
+    }
+    /* #myimage{
+        height: 500px;
+        width: 400px;
+        margin-left: 225px;
+        opacity: 0.9
+    } */
+    #getintouch{
+      color:white;
+}
+/* #myimage{
+   border-radius: 100%;
+   margin-left: 80px;
+} */
